@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="vertical"
+    tools:context=".Actividad_Busqueda">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_busqueda"
+        app:startIconTint="@color/primary_dark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtBusqueda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco_opaco"
+            android:hint="Búsqueda de canciones"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ListView
+        android:id="@+id/lvBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparente"
+        android:dividerHeight="4dp"
+        android:fastScrollEnabled="true"
+        android:listSelector="@drawable/list_item_selector"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" />
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_music_player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="vertical"
+    tools:context=".Actividad_MusicPlayer">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgAlbumReproductor"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_cancion_large"
+        app:shapeAppearanceOverlay="@style/roundedBigImageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCancionReproductor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="48dp"
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="Canción"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary_dark"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ckFavorito"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:button="@drawable/selector_favorito"
+                android:buttonTint="@color/selector_color_checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtArtistaReproductor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Artista"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blanco_opaco" />
+
+        <SeekBar
+            android:id="@+id/barraReproduccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:progressBackgroundTint="@color/blanco_opaco"
+            android:progressTint="@color/primary_dark"
+            android:thumbTint="@color/primary_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTiempoActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0:00"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/blanco_opaco" />
+
+            <TextView
+                android:id="@+id/txtTiempoTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="--:--"
+                android:textAlignment="textEnd"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/blanco_opaco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:divider="@drawable/divider_linear_layout"
+            android:gravity="center"
+            android:showDividers="middle">
+
+            <CheckBox
+                android:id="@+id/ckAleatorio"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:button="@drawable/selector_aleatorio"
+                android:buttonTint="@color/selector_color_checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btnAtrasReproductor"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_atras"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btnPlayPausaReproductor"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_pausa"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btnAdelanteReproductor"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_adelante"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <CheckBox
+                android:id="@+id/ckRepetir"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:button="@drawable/selector_repetir"
+                android:buttonTint="@color/selector_color_checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

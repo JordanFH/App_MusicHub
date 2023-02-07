@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="3dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="3dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgIconoAlbum"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="start"
+        android:background="@drawable/ic_item_album"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    <TextView
+        android:id="@+id/txtAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Álbum"
+        android:textAlignment="textStart"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blanco_opaco"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNumeroCanciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="# Canciones"
+        android:textAlignment="textStart"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/blanco_opaco" />
+
+</LinearLayout>

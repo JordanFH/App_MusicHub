@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtFavoritosDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Sin elementos"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blanco_opaco"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/lvFavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparente"
+        android:dividerHeight="4dp"
+        android:fastScrollEnabled="true"
+        android:listSelector="@drawable/list_item_selector"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" />
+</LinearLayout>

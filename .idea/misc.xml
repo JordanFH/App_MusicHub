@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable-v24/gradiente_azul.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable-v24/gradiente_dark.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable-v24/grif_item_selector.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable-v24/list_selector.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/divider_linear_layout.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ejemplo.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/fast_scrollbar.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/fast_scrollbar_track.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/gradiente.xml" value="0.1635" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/grid_item_selector.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_adelante.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_aleatorio.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_aleatorio_unchecked.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_atras.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_busqueda.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_favorito.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_favorito_unchecked.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_item_cancion.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_music_background.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_music_foreground.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_musica.xml" value="0.17" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_pausa.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_play.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_repetir.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_repetir_unchecked.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/ic_repetir_uno.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/list_item_background.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/list_item_selector.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/patron.xml" value="0.1635" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/rectangulo.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/row_selector.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/scrollbar.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/scrollbar_track.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/selector_aleatorio.xml" value="0.1975" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/selector_color_checkbox.xml" value="0.1975" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/selector_favorito.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/drawable/selector_repetir.xml" value="0.1975" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/font/roboto.xml" value="0.21979166666666666" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout-v23/list_item_cancion.xml" value="0.18958333333333333" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/fg_albumes.xml" value="0.155622060709705" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/fg_artistas.xml" value="0.155622060709705" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/fg_canciones.xml" value="0.18" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/fg_favoritos.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/footer_reproductor.xml" value="0.33" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/grid_item_album.xml" value="0.5" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/list_item.xml" value="0.155622060709705" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/list_item_artista.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/list_item_cancion.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_busqueda.xml" value="0.33" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_ejemplo.xml" value="0.155622060709705" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_login.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_music_player.xml" value="0.2" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_olvidaste_contrasena.xml" value="0.2" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_registro.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/ly_reproductor_principal.xml" value="0.18" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/layout/zzzzz.xml" value="0.25" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/menu/menu_reproductor.xml" value="0.18958333333333333" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/menu/menu_reproductor_principal.xml" value="0.2" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/mipmap-anydpi-v26/ic_music.xml" value="0.1625" />
+        <entry key="..\:/ProyectosAndroid/Segunda_Unidad/App_MusicHub/app/src/main/res/mipmap-anydpi-v26/ic_music_round.xml" value="0.1625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

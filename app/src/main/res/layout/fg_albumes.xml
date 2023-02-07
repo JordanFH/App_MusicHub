@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/gdAlbumes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="140dp"
+        android:fastScrollEnabled="true"
+        android:listSelector="@drawable/list_item_selector"
+        android:numColumns="auto_fit"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="15dp"
+        android:visibility="visible" />
+
+</FrameLayout>
